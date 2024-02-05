@@ -2,73 +2,75 @@
 <testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-27T15:56:47Z" name="Smoke" finished-at="2023-08-27T15:56:49Z" duration-ms="2351">
+  <suite started-at="2024-02-05T21:54:32Z" name="Default suite" finished-at="2024-02-05T21:54:34Z" duration-ms="2105">
     <groups>
     </groups>
-    <test started-at="2023-08-27T15:56:47Z" name="DataDrivenTesting" finished-at="2023-08-27T15:56:49Z" duration-ms="2351">
+    <test started-at="2024-02-05T21:54:32Z" name="Default test" finished-at="2024-02-05T21:54:34Z" duration-ms="2105">
       <class name="tests.DataDrivenTesting">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.DataDrivenTesting@5d534f5d]" started-at="2023-08-27T15:56:47Z" name="beforeMethod" finished-at="2023-08-27T15:56:49Z" duration-ms="2035" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.DataDrivenTesting@21a21c64]" started-at="2024-02-05T21:54:32Z" name="beforeMethod" finished-at="2024-02-05T21:54:34Z" duration-ms="1798" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.111 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Current browser version is 121.0.6167.140 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-BP70A0C', ip: '10.0.0.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-GetHandleVerifier [0x0093A813+48355]
-(No symbol) [0x008CC4B1]
-(No symbol) [0x007D5358]
-(No symbol) [0x007F61AC]
-(No symbol) [0x007F1EF3]
-(No symbol) [0x007F0579]
-(No symbol) [0x00820C55]
-(No symbol) [0x0082093C]
-(No symbol) [0x0081A536]
-(No symbol) [0x007F82DC]
-(No symbol) [0x007F93DD]
-GetHandleVerifier [0x00B9AABD+2539405]
-GetHandleVerifier [0x00BDA78F+2800735]
-GetHandleVerifier [0x00BD456C+2775612]
-GetHandleVerifier [0x009C51E0+616112]
-(No symbol) [0x008D5F8C]
-(No symbol) [0x008D2328]
-(No symbol) [0x008D240B]
-(No symbol) [0x008C4FF7]
-BaseThreadInitThunk [0x75DA00C9+25]
-RtlGetAppContainerNamedObjectPath [0x76EC7B1E+286]
-RtlGetAppContainerNamedObjectPath [0x76EC7AEE+238]
+GetHandleVerifier [0x0029A813+48355]
+(No symbol) [0x0022C4B1]
+(No symbol) [0x00135358]
+(No symbol) [0x001561AC]
+(No symbol) [0x00151EF3]
+(No symbol) [0x00150579]
+(No symbol) [0x00180C55]
+(No symbol) [0x0018093C]
+(No symbol) [0x0017A536]
+(No symbol) [0x001582DC]
+(No symbol) [0x001593DD]
+GetHandleVerifier [0x004FAABD+2539405]
+GetHandleVerifier [0x0053A78F+2800735]
+GetHandleVerifier [0x0053456C+2775612]
+GetHandleVerifier [0x003251E0+616112]
+(No symbol) [0x00235F8C]
+(No symbol) [0x00232328]
+(No symbol) [0x0023240B]
+(No symbol) [0x00224FF7]
+BaseThreadInitThunk [0x778DFCC9+25]
+RtlGetAppContainerNamedObjectPath [0x77B97C6E+286]
+RtlGetAppContainerNamedObjectPath [0x77B97C3E+238]
+(No symbol) [0x00000000]
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.111 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Current browser version is 121.0.6167.140 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-BP70A0C', ip: '10.0.0.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-GetHandleVerifier [0x0093A813+48355]
-(No symbol) [0x008CC4B1]
-(No symbol) [0x007D5358]
-(No symbol) [0x007F61AC]
-(No symbol) [0x007F1EF3]
-(No symbol) [0x007F0579]
-(No symbol) [0x00820C55]
-(No symbol) [0x0082093C]
-(No symbol) [0x0081A536]
-(No symbol) [0x007F82DC]
-(No symbol) [0x007F93DD]
-GetHandleVerifier [0x00B9AABD+2539405]
-GetHandleVerifier [0x00BDA78F+2800735]
-GetHandleVerifier [0x00BD456C+2775612]
-GetHandleVerifier [0x009C51E0+616112]
-(No symbol) [0x008D5F8C]
-(No symbol) [0x008D2328]
-(No symbol) [0x008D240B]
-(No symbol) [0x008C4FF7]
-BaseThreadInitThunk [0x75DA00C9+25]
-RtlGetAppContainerNamedObjectPath [0x76EC7B1E+286]
-RtlGetAppContainerNamedObjectPath [0x76EC7AEE+238]
+GetHandleVerifier [0x0029A813+48355]
+(No symbol) [0x0022C4B1]
+(No symbol) [0x00135358]
+(No symbol) [0x001561AC]
+(No symbol) [0x00151EF3]
+(No symbol) [0x00150579]
+(No symbol) [0x00180C55]
+(No symbol) [0x0018093C]
+(No symbol) [0x0017A536]
+(No symbol) [0x001582DC]
+(No symbol) [0x001593DD]
+GetHandleVerifier [0x004FAABD+2539405]
+GetHandleVerifier [0x0053A78F+2800735]
+GetHandleVerifier [0x0053456C+2775612]
+GetHandleVerifier [0x003251E0+616112]
+(No symbol) [0x00235F8C]
+(No symbol) [0x00232328]
+(No symbol) [0x0023240B]
+(No symbol) [0x00224FF7]
+BaseThreadInitThunk [0x778DFCC9+25]
+RtlGetAppContainerNamedObjectPath [0x77B97C6E+286]
+RtlGetAppContainerNamedObjectPath [0x77B97C3E+238]
+(No symbol) [0x00000000]
 
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
@@ -133,68 +135,70 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test(java.lang.String, java.lang.String)[pri:0, instance:tests.DataDrivenTesting@5d534f5d]" started-at="2023-08-27T15:56:49Z" name="test" data-provider="inputData" finished-at="2023-08-27T15:56:49Z" duration-ms="0" status="SKIP">
+        <test-method signature="test(java.lang.String, java.lang.String)[pri:0, instance:tests.DataDrivenTesting@21a21c64]" started-at="2024-02-05T21:54:34Z" name="test" data-provider="inputData" finished-at="2024-02-05T21:54:34Z" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.111 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Current browser version is 121.0.6167.140 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-BP70A0C', ip: '10.0.0.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-GetHandleVerifier [0x0093A813+48355]
-(No symbol) [0x008CC4B1]
-(No symbol) [0x007D5358]
-(No symbol) [0x007F61AC]
-(No symbol) [0x007F1EF3]
-(No symbol) [0x007F0579]
-(No symbol) [0x00820C55]
-(No symbol) [0x0082093C]
-(No symbol) [0x0081A536]
-(No symbol) [0x007F82DC]
-(No symbol) [0x007F93DD]
-GetHandleVerifier [0x00B9AABD+2539405]
-GetHandleVerifier [0x00BDA78F+2800735]
-GetHandleVerifier [0x00BD456C+2775612]
-GetHandleVerifier [0x009C51E0+616112]
-(No symbol) [0x008D5F8C]
-(No symbol) [0x008D2328]
-(No symbol) [0x008D240B]
-(No symbol) [0x008C4FF7]
-BaseThreadInitThunk [0x75DA00C9+25]
-RtlGetAppContainerNamedObjectPath [0x76EC7B1E+286]
-RtlGetAppContainerNamedObjectPath [0x76EC7AEE+238]
+GetHandleVerifier [0x0029A813+48355]
+(No symbol) [0x0022C4B1]
+(No symbol) [0x00135358]
+(No symbol) [0x001561AC]
+(No symbol) [0x00151EF3]
+(No symbol) [0x00150579]
+(No symbol) [0x00180C55]
+(No symbol) [0x0018093C]
+(No symbol) [0x0017A536]
+(No symbol) [0x001582DC]
+(No symbol) [0x001593DD]
+GetHandleVerifier [0x004FAABD+2539405]
+GetHandleVerifier [0x0053A78F+2800735]
+GetHandleVerifier [0x0053456C+2775612]
+GetHandleVerifier [0x003251E0+616112]
+(No symbol) [0x00235F8C]
+(No symbol) [0x00232328]
+(No symbol) [0x0023240B]
+(No symbol) [0x00224FF7]
+BaseThreadInitThunk [0x778DFCC9+25]
+RtlGetAppContainerNamedObjectPath [0x77B97C6E+286]
+RtlGetAppContainerNamedObjectPath [0x77B97C3E+238]
+(No symbol) [0x00000000]
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.111 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Current browser version is 121.0.6167.140 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-BP70A0C', ip: '10.0.0.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-GetHandleVerifier [0x0093A813+48355]
-(No symbol) [0x008CC4B1]
-(No symbol) [0x007D5358]
-(No symbol) [0x007F61AC]
-(No symbol) [0x007F1EF3]
-(No symbol) [0x007F0579]
-(No symbol) [0x00820C55]
-(No symbol) [0x0082093C]
-(No symbol) [0x0081A536]
-(No symbol) [0x007F82DC]
-(No symbol) [0x007F93DD]
-GetHandleVerifier [0x00B9AABD+2539405]
-GetHandleVerifier [0x00BDA78F+2800735]
-GetHandleVerifier [0x00BD456C+2775612]
-GetHandleVerifier [0x009C51E0+616112]
-(No symbol) [0x008D5F8C]
-(No symbol) [0x008D2328]
-(No symbol) [0x008D240B]
-(No symbol) [0x008C4FF7]
-BaseThreadInitThunk [0x75DA00C9+25]
-RtlGetAppContainerNamedObjectPath [0x76EC7B1E+286]
-RtlGetAppContainerNamedObjectPath [0x76EC7AEE+238]
+GetHandleVerifier [0x0029A813+48355]
+(No symbol) [0x0022C4B1]
+(No symbol) [0x00135358]
+(No symbol) [0x001561AC]
+(No symbol) [0x00151EF3]
+(No symbol) [0x00150579]
+(No symbol) [0x00180C55]
+(No symbol) [0x0018093C]
+(No symbol) [0x0017A536]
+(No symbol) [0x001582DC]
+(No symbol) [0x001593DD]
+GetHandleVerifier [0x004FAABD+2539405]
+GetHandleVerifier [0x0053A78F+2800735]
+GetHandleVerifier [0x0053456C+2775612]
+GetHandleVerifier [0x003251E0+616112]
+(No symbol) [0x00235F8C]
+(No symbol) [0x00232328]
+(No symbol) [0x0023240B]
+(No symbol) [0x00224FF7]
+BaseThreadInitThunk [0x778DFCC9+25]
+RtlGetAppContainerNamedObjectPath [0x77B97C6E+286]
+RtlGetAppContainerNamedObjectPath [0x77B97C3E+238]
+(No symbol) [0x00000000]
 
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
@@ -259,76 +263,78 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.DataDrivenTesting@5d534f5d]" started-at="2023-08-27T15:56:49Z" name="afterMethod" finished-at="2023-08-27T15:56:49Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.DataDrivenTesting@21a21c64]" started-at="2024-02-05T21:54:34Z" name="afterMethod" finished-at="2024-02-05T21:54:34Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.DataDrivenTesting@5d534f5d]" started-at="2023-08-27T15:56:49Z" name="beforeMethod" finished-at="2023-08-27T15:56:49Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.DataDrivenTesting@21a21c64]" started-at="2024-02-05T21:54:34Z" name="beforeMethod" finished-at="2024-02-05T21:54:34Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test(java.lang.String, java.lang.String)[pri:0, instance:tests.DataDrivenTesting@5d534f5d]" started-at="2023-08-27T15:56:49Z" name="test" data-provider="inputData" finished-at="2023-08-27T15:56:49Z" duration-ms="0" status="SKIP">
+        <test-method signature="test(java.lang.String, java.lang.String)[pri:0, instance:tests.DataDrivenTesting@21a21c64]" started-at="2024-02-05T21:54:34Z" name="test" data-provider="inputData" finished-at="2024-02-05T21:54:34Z" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.111 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Current browser version is 121.0.6167.140 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-BP70A0C', ip: '10.0.0.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-GetHandleVerifier [0x0093A813+48355]
-(No symbol) [0x008CC4B1]
-(No symbol) [0x007D5358]
-(No symbol) [0x007F61AC]
-(No symbol) [0x007F1EF3]
-(No symbol) [0x007F0579]
-(No symbol) [0x00820C55]
-(No symbol) [0x0082093C]
-(No symbol) [0x0081A536]
-(No symbol) [0x007F82DC]
-(No symbol) [0x007F93DD]
-GetHandleVerifier [0x00B9AABD+2539405]
-GetHandleVerifier [0x00BDA78F+2800735]
-GetHandleVerifier [0x00BD456C+2775612]
-GetHandleVerifier [0x009C51E0+616112]
-(No symbol) [0x008D5F8C]
-(No symbol) [0x008D2328]
-(No symbol) [0x008D240B]
-(No symbol) [0x008C4FF7]
-BaseThreadInitThunk [0x75DA00C9+25]
-RtlGetAppContainerNamedObjectPath [0x76EC7B1E+286]
-RtlGetAppContainerNamedObjectPath [0x76EC7AEE+238]
+GetHandleVerifier [0x0029A813+48355]
+(No symbol) [0x0022C4B1]
+(No symbol) [0x00135358]
+(No symbol) [0x001561AC]
+(No symbol) [0x00151EF3]
+(No symbol) [0x00150579]
+(No symbol) [0x00180C55]
+(No symbol) [0x0018093C]
+(No symbol) [0x0017A536]
+(No symbol) [0x001582DC]
+(No symbol) [0x001593DD]
+GetHandleVerifier [0x004FAABD+2539405]
+GetHandleVerifier [0x0053A78F+2800735]
+GetHandleVerifier [0x0053456C+2775612]
+GetHandleVerifier [0x003251E0+616112]
+(No symbol) [0x00235F8C]
+(No symbol) [0x00232328]
+(No symbol) [0x0023240B]
+(No symbol) [0x00224FF7]
+BaseThreadInitThunk [0x778DFCC9+25]
+RtlGetAppContainerNamedObjectPath [0x77B97C6E+286]
+RtlGetAppContainerNamedObjectPath [0x77B97C3E+238]
+(No symbol) [0x00000000]
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.111 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Current browser version is 121.0.6167.140 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-BP70A0C', ip: '10.0.0.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-GetHandleVerifier [0x0093A813+48355]
-(No symbol) [0x008CC4B1]
-(No symbol) [0x007D5358]
-(No symbol) [0x007F61AC]
-(No symbol) [0x007F1EF3]
-(No symbol) [0x007F0579]
-(No symbol) [0x00820C55]
-(No symbol) [0x0082093C]
-(No symbol) [0x0081A536]
-(No symbol) [0x007F82DC]
-(No symbol) [0x007F93DD]
-GetHandleVerifier [0x00B9AABD+2539405]
-GetHandleVerifier [0x00BDA78F+2800735]
-GetHandleVerifier [0x00BD456C+2775612]
-GetHandleVerifier [0x009C51E0+616112]
-(No symbol) [0x008D5F8C]
-(No symbol) [0x008D2328]
-(No symbol) [0x008D240B]
-(No symbol) [0x008C4FF7]
-BaseThreadInitThunk [0x75DA00C9+25]
-RtlGetAppContainerNamedObjectPath [0x76EC7B1E+286]
-RtlGetAppContainerNamedObjectPath [0x76EC7AEE+238]
+GetHandleVerifier [0x0029A813+48355]
+(No symbol) [0x0022C4B1]
+(No symbol) [0x00135358]
+(No symbol) [0x001561AC]
+(No symbol) [0x00151EF3]
+(No symbol) [0x00150579]
+(No symbol) [0x00180C55]
+(No symbol) [0x0018093C]
+(No symbol) [0x0017A536]
+(No symbol) [0x001582DC]
+(No symbol) [0x001593DD]
+GetHandleVerifier [0x004FAABD+2539405]
+GetHandleVerifier [0x0053A78F+2800735]
+GetHandleVerifier [0x0053456C+2775612]
+GetHandleVerifier [0x003251E0+616112]
+(No symbol) [0x00235F8C]
+(No symbol) [0x00232328]
+(No symbol) [0x0023240B]
+(No symbol) [0x00224FF7]
+BaseThreadInitThunk [0x778DFCC9+25]
+RtlGetAppContainerNamedObjectPath [0x77B97C6E+286]
+RtlGetAppContainerNamedObjectPath [0x77B97C3E+238]
+(No symbol) [0x00000000]
 
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
@@ -393,76 +399,78 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.DataDrivenTesting@5d534f5d]" started-at="2023-08-27T15:56:49Z" name="afterMethod" finished-at="2023-08-27T15:56:49Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.DataDrivenTesting@21a21c64]" started-at="2024-02-05T21:54:34Z" name="afterMethod" finished-at="2024-02-05T21:54:34Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.DataDrivenTesting@5d534f5d]" started-at="2023-08-27T15:56:49Z" name="beforeMethod" finished-at="2023-08-27T15:56:49Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.DataDrivenTesting@21a21c64]" started-at="2024-02-05T21:54:34Z" name="beforeMethod" finished-at="2024-02-05T21:54:34Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test(java.lang.String, java.lang.String)[pri:0, instance:tests.DataDrivenTesting@5d534f5d]" started-at="2023-08-27T15:56:49Z" name="test" data-provider="inputData" finished-at="2023-08-27T15:56:49Z" duration-ms="0" status="SKIP">
+        <test-method signature="test(java.lang.String, java.lang.String)[pri:0, instance:tests.DataDrivenTesting@21a21c64]" started-at="2024-02-05T21:54:34Z" name="test" data-provider="inputData" finished-at="2024-02-05T21:54:34Z" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.111 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Current browser version is 121.0.6167.140 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-BP70A0C', ip: '10.0.0.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-GetHandleVerifier [0x0093A813+48355]
-(No symbol) [0x008CC4B1]
-(No symbol) [0x007D5358]
-(No symbol) [0x007F61AC]
-(No symbol) [0x007F1EF3]
-(No symbol) [0x007F0579]
-(No symbol) [0x00820C55]
-(No symbol) [0x0082093C]
-(No symbol) [0x0081A536]
-(No symbol) [0x007F82DC]
-(No symbol) [0x007F93DD]
-GetHandleVerifier [0x00B9AABD+2539405]
-GetHandleVerifier [0x00BDA78F+2800735]
-GetHandleVerifier [0x00BD456C+2775612]
-GetHandleVerifier [0x009C51E0+616112]
-(No symbol) [0x008D5F8C]
-(No symbol) [0x008D2328]
-(No symbol) [0x008D240B]
-(No symbol) [0x008C4FF7]
-BaseThreadInitThunk [0x75DA00C9+25]
-RtlGetAppContainerNamedObjectPath [0x76EC7B1E+286]
-RtlGetAppContainerNamedObjectPath [0x76EC7AEE+238]
+GetHandleVerifier [0x0029A813+48355]
+(No symbol) [0x0022C4B1]
+(No symbol) [0x00135358]
+(No symbol) [0x001561AC]
+(No symbol) [0x00151EF3]
+(No symbol) [0x00150579]
+(No symbol) [0x00180C55]
+(No symbol) [0x0018093C]
+(No symbol) [0x0017A536]
+(No symbol) [0x001582DC]
+(No symbol) [0x001593DD]
+GetHandleVerifier [0x004FAABD+2539405]
+GetHandleVerifier [0x0053A78F+2800735]
+GetHandleVerifier [0x0053456C+2775612]
+GetHandleVerifier [0x003251E0+616112]
+(No symbol) [0x00235F8C]
+(No symbol) [0x00232328]
+(No symbol) [0x0023240B]
+(No symbol) [0x00224FF7]
+BaseThreadInitThunk [0x778DFCC9+25]
+RtlGetAppContainerNamedObjectPath [0x77B97C6E+286]
+RtlGetAppContainerNamedObjectPath [0x77B97C3E+238]
+(No symbol) [0x00000000]
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.111 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Current browser version is 121.0.6167.140 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-BP70A0C', ip: '10.0.0.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-GetHandleVerifier [0x0093A813+48355]
-(No symbol) [0x008CC4B1]
-(No symbol) [0x007D5358]
-(No symbol) [0x007F61AC]
-(No symbol) [0x007F1EF3]
-(No symbol) [0x007F0579]
-(No symbol) [0x00820C55]
-(No symbol) [0x0082093C]
-(No symbol) [0x0081A536]
-(No symbol) [0x007F82DC]
-(No symbol) [0x007F93DD]
-GetHandleVerifier [0x00B9AABD+2539405]
-GetHandleVerifier [0x00BDA78F+2800735]
-GetHandleVerifier [0x00BD456C+2775612]
-GetHandleVerifier [0x009C51E0+616112]
-(No symbol) [0x008D5F8C]
-(No symbol) [0x008D2328]
-(No symbol) [0x008D240B]
-(No symbol) [0x008C4FF7]
-BaseThreadInitThunk [0x75DA00C9+25]
-RtlGetAppContainerNamedObjectPath [0x76EC7B1E+286]
-RtlGetAppContainerNamedObjectPath [0x76EC7AEE+238]
+GetHandleVerifier [0x0029A813+48355]
+(No symbol) [0x0022C4B1]
+(No symbol) [0x00135358]
+(No symbol) [0x001561AC]
+(No symbol) [0x00151EF3]
+(No symbol) [0x00150579]
+(No symbol) [0x00180C55]
+(No symbol) [0x0018093C]
+(No symbol) [0x0017A536]
+(No symbol) [0x001582DC]
+(No symbol) [0x001593DD]
+GetHandleVerifier [0x004FAABD+2539405]
+GetHandleVerifier [0x0053A78F+2800735]
+GetHandleVerifier [0x0053456C+2775612]
+GetHandleVerifier [0x003251E0+616112]
+(No symbol) [0x00235F8C]
+(No symbol) [0x00232328]
+(No symbol) [0x0023240B]
+(No symbol) [0x00224FF7]
+BaseThreadInitThunk [0x778DFCC9+25]
+RtlGetAppContainerNamedObjectPath [0x77B97C6E+286]
+RtlGetAppContainerNamedObjectPath [0x77B97C3E+238]
+(No symbol) [0x00000000]
 
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
@@ -527,11 +535,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.DataDrivenTesting@5d534f5d]" started-at="2023-08-27T15:56:49Z" name="afterMethod" finished-at="2023-08-27T15:56:49Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.DataDrivenTesting@21a21c64]" started-at="2024-02-05T21:54:34Z" name="afterMethod" finished-at="2024-02-05T21:54:34Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- tests.DataDrivenTesting -->
-    </test> <!-- DataDrivenTesting -->
-  </suite> <!-- Smoke -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

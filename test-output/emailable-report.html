@@ -8,40 +8,46 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Smoke</th></tr>
-<tr><td><a href="#t0">DataDrivenTesting</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">2,351</td><td></td><td>login</td></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">2,105</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Smoke</th></tr></tbody><tbody id="t0"><tr><th colspan="4">DataDrivenTesting &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">tests.DataDrivenTesting</td><td><a href="#m0">beforeMethod</a></td><td rowspan="1">1693151807715</td><td rowspan="1">2035</td></tr><tr><th colspan="4">DataDrivenTesting &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="5">tests.DataDrivenTesting</td><td><a href="#m1">afterMethod</a></td><td rowspan="3">1693151809759</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m2">afterMethod</a></td></tr><tr class="skippedeven"><td><a href="#m3">afterMethod</a></td></tr><tr class="skippedeven"><td><a href="#m4">beforeMethod</a></td><td rowspan="2">1693151809759</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m5">beforeMethod</a></td></tr><tr><th colspan="4">DataDrivenTesting &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">tests.DataDrivenTesting</td><td><a href="#m6">test</a></td><td rowspan="3">1693151809760</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m7">test</a></td></tr><tr class="skippedeven"><td><a href="#m8">test</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">tests.DataDrivenTesting</td><td><a href="#m0">beforeMethod</a></td><td rowspan="1">1707170072664</td><td rowspan="1">1798</td></tr><tr><th colspan="4">Default test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="5">tests.DataDrivenTesting</td><td><a href="#m1">afterMethod</a></td><td rowspan="3">1707170074470</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m2">afterMethod</a></td></tr><tr class="skippedeven"><td><a href="#m3">afterMethod</a></td></tr><tr class="skippedeven"><td><a href="#m4">beforeMethod</a></td><td rowspan="2">1707170074471</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m5">beforeMethod</a></td></tr><tr><th colspan="4">Default test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">tests.DataDrivenTesting</td><td><a href="#m6">test</a></td><td rowspan="3">1707170074469</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m7">test</a></td></tr><tr class="skippedeven"><td><a href="#m8">test</a></td></tr></tbody>
 </table>
-<h2>DataDrivenTesting</h2><h3 id="m0">tests.DataDrivenTesting#beforeMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.111 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+<h2>Default test</h2><h3 id="m0">tests.DataDrivenTesting#beforeMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 121.0.6167.140 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-BP70A0C&apos;, ip: &apos;10.0.0.182&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-	GetHandleVerifier [0x0093A813+48355]
-	(No symbol) [0x008CC4B1]
-	(No symbol) [0x007D5358]
-	(No symbol) [0x007F61AC]
-	(No symbol) [0x007F1EF3]
-	(No symbol) [0x007F0579]
-	(No symbol) [0x00820C55]
-	(No symbol) [0x0082093C]
-	(No symbol) [0x0081A536]
-	(No symbol) [0x007F82DC]
-	(No symbol) [0x007F93DD]
-	GetHandleVerifier [0x00B9AABD+2539405]
-	GetHandleVerifier [0x00BDA78F+2800735]
-	GetHandleVerifier [0x00BD456C+2775612]
-	GetHandleVerifier [0x009C51E0+616112]
-	(No symbol) [0x008D5F8C]
-	(No symbol) [0x008D2328]
-	(No symbol) [0x008D240B]
-	(No symbol) [0x008C4FF7]
-	BaseThreadInitThunk [0x75DA00C9+25]
-	RtlGetAppContainerNamedObjectPath [0x76EC7B1E+286]
-	RtlGetAppContainerNamedObjectPath [0x76EC7AEE+238]
+	GetHandleVerifier [0x0029A813+48355]
+	(No symbol) [0x0022C4B1]
+	(No symbol) [0x00135358]
+	(No symbol) [0x001561AC]
+	(No symbol) [0x00151EF3]
+	(No symbol) [0x00150579]
+	(No symbol) [0x00180C55]
+	(No symbol) [0x0018093C]
+	(No symbol) [0x0017A536]
+	(No symbol) [0x001582DC]
+	(No symbol) [0x001593DD]
+	GetHandleVerifier [0x004FAABD+2539405]
+	GetHandleVerifier [0x0053A78F+2800735]
+	GetHandleVerifier [0x0053456C+2775612]
+	GetHandleVerifier [0x003251E0+616112]
+	(No symbol) [0x00235F8C]
+	(No symbol) [0x00232328]
+	(No symbol) [0x0023240B]
+	(No symbol) [0x00224FF7]
+	BaseThreadInitThunk [0x778DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77B97C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77B97C3E+238]
+	(No symbol) [0x00000000]
 
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
 	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
 	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
@@ -66,41 +72,75 @@ remote stacktrace: Backtrace:
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
 	at core.Base.initializeDriver(Base.java:101)
 	at tests.DataDrivenTesting.beforeMethod(DataDrivenTesting.java:22)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">tests.DataDrivenTesting#afterMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">tests.DataDrivenTesting#afterMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">tests.DataDrivenTesting#afterMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m4">tests.DataDrivenTesting#beforeMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m5">tests.DataDrivenTesting#beforeMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m6">tests.DataDrivenTesting#test</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.111 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Current browser version is 121.0.6167.140 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-BP70A0C&apos;, ip: &apos;10.0.0.182&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-	GetHandleVerifier [0x0093A813+48355]
-	(No symbol) [0x008CC4B1]
-	(No symbol) [0x007D5358]
-	(No symbol) [0x007F61AC]
-	(No symbol) [0x007F1EF3]
-	(No symbol) [0x007F0579]
-	(No symbol) [0x00820C55]
-	(No symbol) [0x0082093C]
-	(No symbol) [0x0081A536]
-	(No symbol) [0x007F82DC]
-	(No symbol) [0x007F93DD]
-	GetHandleVerifier [0x00B9AABD+2539405]
-	GetHandleVerifier [0x00BDA78F+2800735]
-	GetHandleVerifier [0x00BD456C+2775612]
-	GetHandleVerifier [0x009C51E0+616112]
-	(No symbol) [0x008D5F8C]
-	(No symbol) [0x008D2328]
-	(No symbol) [0x008D240B]
-	(No symbol) [0x008C4FF7]
-	BaseThreadInitThunk [0x75DA00C9+25]
-	RtlGetAppContainerNamedObjectPath [0x76EC7B1E+286]
-	RtlGetAppContainerNamedObjectPath [0x76EC7AEE+238]
+	GetHandleVerifier [0x0029A813+48355]
+	(No symbol) [0x0022C4B1]
+	(No symbol) [0x00135358]
+	(No symbol) [0x001561AC]
+	(No symbol) [0x00151EF3]
+	(No symbol) [0x00150579]
+	(No symbol) [0x00180C55]
+	(No symbol) [0x0018093C]
+	(No symbol) [0x0017A536]
+	(No symbol) [0x001582DC]
+	(No symbol) [0x001593DD]
+	GetHandleVerifier [0x004FAABD+2539405]
+	GetHandleVerifier [0x0053A78F+2800735]
+	GetHandleVerifier [0x0053456C+2775612]
+	GetHandleVerifier [0x003251E0+616112]
+	(No symbol) [0x00235F8C]
+	(No symbol) [0x00232328]
+	(No symbol) [0x0023240B]
+	(No symbol) [0x00224FF7]
+	BaseThreadInitThunk [0x778DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77B97C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77B97C3E+238]
+	(No symbol) [0x00000000]
 
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
 	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
 	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
@@ -125,36 +165,70 @@ remote stacktrace: Backtrace:
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
 	at core.Base.initializeDriver(Base.java:101)
 	at tests.DataDrivenTesting.beforeMethod(DataDrivenTesting.java:22)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m7">tests.DataDrivenTesting#test</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.111 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Current browser version is 121.0.6167.140 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-BP70A0C&apos;, ip: &apos;10.0.0.182&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-	GetHandleVerifier [0x0093A813+48355]
-	(No symbol) [0x008CC4B1]
-	(No symbol) [0x007D5358]
-	(No symbol) [0x007F61AC]
-	(No symbol) [0x007F1EF3]
-	(No symbol) [0x007F0579]
-	(No symbol) [0x00820C55]
-	(No symbol) [0x0082093C]
-	(No symbol) [0x0081A536]
-	(No symbol) [0x007F82DC]
-	(No symbol) [0x007F93DD]
-	GetHandleVerifier [0x00B9AABD+2539405]
-	GetHandleVerifier [0x00BDA78F+2800735]
-	GetHandleVerifier [0x00BD456C+2775612]
-	GetHandleVerifier [0x009C51E0+616112]
-	(No symbol) [0x008D5F8C]
-	(No symbol) [0x008D2328]
-	(No symbol) [0x008D240B]
-	(No symbol) [0x008C4FF7]
-	BaseThreadInitThunk [0x75DA00C9+25]
-	RtlGetAppContainerNamedObjectPath [0x76EC7B1E+286]
-	RtlGetAppContainerNamedObjectPath [0x76EC7AEE+238]
+	GetHandleVerifier [0x0029A813+48355]
+	(No symbol) [0x0022C4B1]
+	(No symbol) [0x00135358]
+	(No symbol) [0x001561AC]
+	(No symbol) [0x00151EF3]
+	(No symbol) [0x00150579]
+	(No symbol) [0x00180C55]
+	(No symbol) [0x0018093C]
+	(No symbol) [0x0017A536]
+	(No symbol) [0x001582DC]
+	(No symbol) [0x001593DD]
+	GetHandleVerifier [0x004FAABD+2539405]
+	GetHandleVerifier [0x0053A78F+2800735]
+	GetHandleVerifier [0x0053456C+2775612]
+	GetHandleVerifier [0x003251E0+616112]
+	(No symbol) [0x00235F8C]
+	(No symbol) [0x00232328]
+	(No symbol) [0x0023240B]
+	(No symbol) [0x00224FF7]
+	BaseThreadInitThunk [0x778DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77B97C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77B97C3E+238]
+	(No symbol) [0x00000000]
 
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
 	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
 	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
@@ -179,36 +253,70 @@ remote stacktrace: Backtrace:
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
 	at core.Base.initializeDriver(Base.java:101)
 	at tests.DataDrivenTesting.beforeMethod(DataDrivenTesting.java:22)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m8">tests.DataDrivenTesting#test</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.111 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Current browser version is 121.0.6167.140 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-BP70A0C&apos;, ip: &apos;10.0.0.182&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-	GetHandleVerifier [0x0093A813+48355]
-	(No symbol) [0x008CC4B1]
-	(No symbol) [0x007D5358]
-	(No symbol) [0x007F61AC]
-	(No symbol) [0x007F1EF3]
-	(No symbol) [0x007F0579]
-	(No symbol) [0x00820C55]
-	(No symbol) [0x0082093C]
-	(No symbol) [0x0081A536]
-	(No symbol) [0x007F82DC]
-	(No symbol) [0x007F93DD]
-	GetHandleVerifier [0x00B9AABD+2539405]
-	GetHandleVerifier [0x00BDA78F+2800735]
-	GetHandleVerifier [0x00BD456C+2775612]
-	GetHandleVerifier [0x009C51E0+616112]
-	(No symbol) [0x008D5F8C]
-	(No symbol) [0x008D2328]
-	(No symbol) [0x008D240B]
-	(No symbol) [0x008C4FF7]
-	BaseThreadInitThunk [0x75DA00C9+25]
-	RtlGetAppContainerNamedObjectPath [0x76EC7B1E+286]
-	RtlGetAppContainerNamedObjectPath [0x76EC7AEE+238]
+	GetHandleVerifier [0x0029A813+48355]
+	(No symbol) [0x0022C4B1]
+	(No symbol) [0x00135358]
+	(No symbol) [0x001561AC]
+	(No symbol) [0x00151EF3]
+	(No symbol) [0x00150579]
+	(No symbol) [0x00180C55]
+	(No symbol) [0x0018093C]
+	(No symbol) [0x0017A536]
+	(No symbol) [0x001582DC]
+	(No symbol) [0x001593DD]
+	GetHandleVerifier [0x004FAABD+2539405]
+	GetHandleVerifier [0x0053A78F+2800735]
+	GetHandleVerifier [0x0053456C+2775612]
+	GetHandleVerifier [0x003251E0+616112]
+	(No symbol) [0x00235F8C]
+	(No symbol) [0x00232328]
+	(No symbol) [0x0023240B]
+	(No symbol) [0x00224FF7]
+	BaseThreadInitThunk [0x778DFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77B97C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77B97C3E+238]
+	(No symbol) [0x00000000]
 
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
 	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
 	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
@@ -233,6 +341,34 @@ remote stacktrace: Backtrace:
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
 	at core.Base.initializeDriver(Base.java:101)
 	at tests.DataDrivenTesting.beforeMethod(DataDrivenTesting.java:22)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
